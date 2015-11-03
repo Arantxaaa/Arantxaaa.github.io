@@ -1,0 +1,50 @@
+<!doctype html>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<style>
+
+body {
+background-image: url("http://nebula.wsimg.com/c357449f2c51e69ccc61b2acd1bfc5d4?AccessKeyId=68BEDB2E77BB5FC3DECA&disposition=0&alloworigin=1");
+
+background-size: 1600px;
+}
+
+
+h1 {
+font-family: font-family: 'Source Sans Pro', sans-serif;
+font-size: 36px;
+text-transform: uppercase;
+}
+
+h2 {
+font-size: 12px;
+}
+
+h3 {
+font-size: 12px;
+}
+
+p {
+color: blue;
+}
+
+</style>
+
+<head>
+<hr>
+<h1 style: align="center">Extra Credit</h1>
+<h2 style: align="center">Code this website!</h2>
+<br>
+<br>
+</head>
+
+
+<body style: align="center">
+
+<button type="button">Start Now!</button> 
+
+<h3>its easy if you know your HTML and CSS</h3>
+
+<p>Due week 6.
+<hr>
+</body>
