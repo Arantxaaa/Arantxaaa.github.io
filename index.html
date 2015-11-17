@@ -13,7 +13,11 @@ function popup(){
 
   <style>
   body{
-  background-color: gray;
+background: #8e9eab /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+  /*background-color: gray;*/
   text-align: center;
 }
 
@@ -46,7 +50,14 @@ function popup(){
 	
 	
 	#how-i-work{
-	background-image: url("http://blog.thornyeternity.com/wp-content/uploads/2012/04/grey-zig-zag.png");
+		
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,efddbf+0,efddbf+48,efddbf+99&0+0,1+48,0+100 */
+background: -moz-linear-gradient(top, rgba(239,221,191,0) 0%, rgba(239,221,191,1) 48%, rgba(239,221,191,0.02) 99%, rgba(239,221,191,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(239,221,191,0) 0%,rgba(239,221,191,1) 48%,rgba(239,221,191,0.02) 99%,rgba(239,221,191,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(239,221,191,0) 0%,rgba(239,221,191,1) 48%,rgba(239,221,191,0.02) 99%,rgba(239,221,191,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efddbf', endColorstr='#00efddbf',GradientType=0 ); /* IE6-9 */
+        
+		
 	padding: 20px;
 	overflow: hidden;
 	}
@@ -69,6 +80,36 @@ function popup(){
 		text-align: justify;
 	}
 	
+	footer {
+background: #517fa4 /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #517fa4 , #243949); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+	padding: 50px;
+	color: #FFDEBF
+	
+	}
+	
+	footer a{
+		color: #FFDEBF
+		}
+		
+	nav a{
+		color: #FFDEBF
+		}
+		
+	#my-work{
+			
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,ffffff+0,ffffff+47,ffffff+99&0.23+0,0.42+47,0.19+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0.23) 0%, rgba(255,255,255,0.42) 47%, rgba(255,255,255,0.19) 99%, rgba(255,255,255,0.19) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.23) 0%,rgba(255,255,255,0.42) 47%,rgba(255,255,255,0.19) 99%,rgba(255,255,255,0.19) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0.23) 0%,rgba(255,255,255,0.42) 47%,rgba(255,255,255,0.19) 99%,rgba(255,255,255,0.19) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bffffff', endColorstr='#30ffffff',GradientType=0 ); /* IE6-9 */
+
+	padding: 50px;
+			
+		}
+		
   </style>
   
 </head>
@@ -81,15 +122,12 @@ function popup(){
   <h2>Miami artist specialized in portraits and fine art</h2>
 
 <nav>
-<p><a href="/about.html">About</a>
-<a href="/contact.html">Contact</a>
+<p><a href="/index.html">Home |</a>
+  <a href="/about.html">About |</a>
+  <a href="/contact.html">Contact |</a>
+  <a href="/fees.html">Fees</a>
 <br>
 </nav>
-
-<img alt= Work Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/22f43329638939.55fc460922e6f.jpg">
-<img alt= Work Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/471b4c29639051.55fc46e963f6b.jpg">
-<img alt= Work Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/11a3b829639051.55fc46e969240.jpg">
-<img alt= Work Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b2859619190849.562d6467428cb.jpg">
 
 <p>Welcome! Throughout this site you will find works created by Arantxa Valladares specifically photographic work. The works are mainly portraits taken over a series of 3-4 years. They each have their own asthetic. Also, you'll find a broad range of genres from Fashion, Product and Documentary. If you are interested in looking through more work or any questions about the works you may contact me as you wish.
 <br>Thank you.</p>
@@ -100,17 +138,32 @@ function popup(){
 	<div class="container">
 	<h1>How I Work</h1>
 	<p class="two-thirds"> My photographic process is very simple, i have a conversation with my consumer and try to get as much information about the product they wish for. After that i get to work and try to get the final product done in a timely matter and at the highest quality. My goal is satisfy the consumer at the best of my ability and if the consumer is not completely satisfied i will keep working until they are. I generally enjoy meeting with the consumer more than once to acquired feedback and also to become more familliar with them so we can both be very comfortable and get to know each other.
-    <input type="button" value="My Fees" onClick="popup()"></p>
+   <br><input type="button" value="My Fees" onClick="popup()"></p>
 	<p class="one-third">
+        
         <ul>
         Contact:
         <li>Phone: (305) 283-2228</li>
         <li>E-mail: aran_valla@yahoo.com</li>
         </ul>
-    </p>
     </div>
 
 </section>
+
+
+<section>
+<section id="my-work">
+
+<h1>My Latest Work</h1>
+
+<img alt= "Miami Photographer Specialized in Portraits" Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/22f43329638939.55fc460922e6f.jpg">
+<img alt= "Fine Art Photography" Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/471b4c29639051.55fc46e963f6b.jpg">
+<img alt= "Unique and Creative Photographer" Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/11a3b829639051.55fc46e969240.jpg">
+<img alt= "Miami Weddings Events Portraits Other" Height= "150" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b2859619190849.562d6467428cb.jpg">
+
+</section>
+
+
 <footer>
 <a href="https://instagram.com/_arantxaaa/">
   <i class="fa fa-instagram"></i></a>
@@ -120,6 +173,8 @@ function popup(){
   
 <a href="https://www.linkedin.com/profile/view?id=AAIAABhMPTUBZAtM5YoTPK5qhPHpXcnu58NCQnQ&amp;trk=nav_responsive_tab_profile_pic">
   <i class="fa fa-linkedin-square"></i></a>
+  
+  <p style= text-align: center>Arantxa Valladares 2015
 </footer>
 </body>
 
