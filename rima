@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<head>
+  <title>MIU WEB | Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+  <script>
+  	function popup(){
+window.open("fees.html","Popup","height=300,width=300,top=200,left=400");
+	}
+  </script>
+  <style>
+    body{
+      text-align: center;
+      font-family: "Lucida Sans Unicode", sans-serif;
+	  
+      background-image: url(https://static.pexels.com/photos/689/sea-black-and-white-flight-sky.jpg);
+      background-size: cover;
+	  
+	  
+    }
+    header{
+      padding: 110px;
+    }
+    
+    a {
+      color: #000;
+    }
+    
+    a:hover {
+      color: hotpink;
+    }
+    
+    a:visited{
+      color: hotpink;
+    }
+    h1{
+      font-family: 'Candal', sans-serif;
+    }
+ 
+    #what-i-do{
+      background-color: #FFF;
+      /*clearing floats*/
+      overflow: hidden;
+      padding: 20px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d63ba5+0,b70049+100 */
+background: rgb(214,59,165); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(214,59,165,1) 0%, rgba(183,0,73,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(214,59,165,1) 0%,rgba(183,0,73,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(214,59,165,1) 0%,rgba(183,0,73,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d63ba5', endColorstr='#b70049',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	  
+	  
+    }
+    article{
+      padding: 10px;
+      width: 270px;
+      float: left;
+      background-color: #EDEDED;
+      margin: 5px;
+      height: 150px;
+      border-radius: 3px;
+    }
+    #who-i-am{
+    color: white;
+    background-color: #363636;
+    padding: 20px;
+    }
+    .container{
+      width: 900px;
+      /*centering*/
+      margin: 0 auto;
+    }
+	
+#how-i-work{
+	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cubes.png);
+	padding: 20px;
+	overflow:hidden;
+}
+.one-third{
+	width: 300px;
+	float: left;
+	text-align: justify;
+}
+.two-thirds{
+	/*total width: 600px*/
+	width: 580px;
+	float: left;
+	text-align: justify;
+	margin-right: 20px;
+}
+footer{
+color: #FFF;	
+padding: 20px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b5b5b+0,000000+100 */
+background: rgb(91,91,91); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(91,91,91,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(91,91,91,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(91,91,91,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+footer a{
+	color: #FFF;
+}
+#my-latest-work{
+background-color: #FFF;
+padding: 20px;
+}
+#my-resume iframe{
+	width: 800px;
+	height: 400px;
+}
+  </style>
+</head>
+<body>
+<header> 
+  <img src="http://i.imgur.com/FVDGmPA.png" alt="MIU Web Logo" width="200">
+  <h1>- Creative Web Designs delivered on time and budget -</h1>
+<p>We are a Miami based Web Design Studio located right in the heart of downtown.</p>
+
+<!-- SnapWidget -->
+<iframe src="http://snapwidget.com/in/?u=bWl1d2VifGlufDI1MHwzfDJ8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=241115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:765px; height:510px"></iframe>
+
+</header>
+<section id="what-i-do">
+<div class="container">
+<h1>What I do</h1>
+
+<article>
+<i class="fa fa-laptop fa-2x"></i>
+  <h1>Web Design</h1><p>From Design to Development, I can assist with all aspects of Web Site Creation.</p></article>
+<article>
+<i class="fa fa-mobile fa-2x"></i>
+  <h1>App Development</h1><p>I have 3 published apps in the markets.</p></article>
+<article>
+<i class="fa fa-cog fa-2x"></i>
+  <h1>SEO</h1><p>Are you being found? Let me help you get ranked in Google et al.</p></article>
+</div>
+</section>
+<section id="who-i-am">
+<div class="container">
+<h1>Who I am</h1>
+    <img src="http://gravatar.com/avatar/84b921aa2a51d74054cf78cc38c58973?s=512" width="150" alt="Rima Miami International University of Art & Design">
+  <p>
+    I work at the Ai Miami International University of Art & Design in the Graphic & Web Design Department. I am originally from a small town in Germany. I <i class="fa fa-heart"></i> everything Web Design.</p>
+</div>
+</section>
+<!-- Add a different background image -->
+<!-- thestocks.im -->
+<section id="how-i-work">
+    <div class="container"> 
+    <h1>How I work</h1>
+    <p class="two-thirds">I will take the time that is needed to get to you and your project. While we can meet online or offline, I prefer to kick start a new project with a personal meeting. Meet me in my office in downtown Miami or I'll come to you as long as you are in the South Florida area. After our initial meeting, you will receive a project proposal within less than 48 hours. The project proposal will contain the project timeline as well as the full quote. <input type="button" value="Check out my fees here." onClick="popup()"></p>
+    <p class="one-third">
+    	Meeting options: Phone, Skype, Google Hangouts
+    </p>
+    </div>
+</section>
+<section id="my-latest-work">
+<h1>My latest work</h1>
+<img src="http://miuweb.me/miamiartweek/images/overview/screen3.jpg" alt="Web Design Client Project">
+<img src="http://miuweb.me/miamiartweek/images/overview/screen2.jpg" alt="Web App Development Miami">
+<img src="http://miuweb.me/miamiartweek/images/overview/screen4.jpg" alt="Mobile Website Developer">
+</section>
+<section id="my-resume">
+<h1>My Resume</h1>
+<iframe src="https://docs.google.com/document/d/1503gbt3U-BmMwknEBEuqCANVvrhLQJ9qbNJB_wRBi0E/pub?embedded=true"></iframe>
+</section>
+<footer>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+</footer>
+</body>
